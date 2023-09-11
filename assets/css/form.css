@@ -1,0 +1,86 @@
+.quote-form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote-form h6 {
+    margin-bottom: 1.5rem;
+}
+
+.quote-form form>div {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 25px;
+    gap: 15px;
+}
+
+.quote-form form>div label {
+    flex: 1;
+    text-align: right;
+    max-width: 300px;
+}
+
+.quote-form form>div label span {
+    color: red;
+}
+
+.quote-form form>div input {
+    border: 1px solid #8D8F90 !important;
+    flex: 1;
+    border-radius: 4px;
+    max-width: 300px;
+    height: 30px;
+}
+
+.quote-form form>div textarea {
+    border: 1px solid #8D8F90 !important;
+    flex: 1;
+    min-height: 80px;
+    border-radius: 4px;
+    max-width: 300px;
+}
+
+.quote-form form>div select {
+    border: 1px solid #8D8F90 !important;
+    flex: 1;
+    height: 30px;
+    border-radius: 4px;
+    max-width: 300px;
+    display: block;
+}
+
+.quote-form form>div {
+    display: flex;
+}
+
+.quote-form form>div {
+    display: flex;
+}
+
+@media(max-width: 450px) {
+    .quote-form form>div {
+        flex-direction: column;
+        gap: 0px;
+        align-items: flex-start;
+    }
+
+    .quote-form form>div label {
+        text-align: left;
+    }
+
+    .quote-form form>div input {
+        flex: unset;
+        max-width: 100%;
+    }
+
+    .quote-form form>div textarea {
+        flex: unset;
+        max-width: 100%;
+    }
+
+    .quote-form form>div select {
+        flex: unset;
+        max-width: 100%;
+        width: 100%;
+    }
+}
