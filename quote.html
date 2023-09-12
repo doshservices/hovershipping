@@ -177,7 +177,7 @@
     <!--  breadcrumb-area  start -->
     <div class="wrapper-box p-relative">
         <div class="breadcrumb__bg breadcrumb__bg__overlay pt-130 pb-130"
-            data-background="assets/img/breadcrumb/breadcrumb-bg-1.jpg">
+            data-background="assets/img/slider/shipping5.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-xxl-12">
@@ -202,85 +202,87 @@
 
     <!-- choose area end -->
     <!-- choose area start -->
-    <section class="choose-area tp-choose-3-responsive-padding pt-40 pb-40 p-relative fix">
+    <section class="choose-area tp-choose-3-responsive-padding pt-40 pb-40 pr-20 pl-20 mt-40 p-relative fix">
         <section class="quote-form">
             <h6>Please provide your contact information:
             </h6>
-            <form action="" class="contact-info">
+            <form action="https://formsubmit.co/mamusedafe19@gmail.com" method="POST">
                 <div>
-                    <label for="name"><span>*</span>Name</label>
-                    <input type="text" name="name">
+                    <label for="Name"><span></span>Name</label>
+                    <input type="text" name="Name" id="Name">
                 </div>
                 <div>
-                    <label for="organization"><span>*</span>Organization</label>
-                    <input type="text" name="organization">
+                    <label for="Organization"><span></span>Organization</label>
+                    <input type="text" name="Organization" id="Organization">
                 </div>
                 <div>
-                    <label for="telephone"><span>*</span>Telephone</label>
-                    <input type="text" name="telephone">
+                    <label for="Telephone"><span></span>Telephone</label>
+                    <input type="tel" name="Telephone" id="Telephone">
                 </div>
                 <div>
-                    <label for="fax"><span>*</span>FAX</label>
-                    <input type="text" name="fax">
+                    <label for="Fax"><span></span>FAX</label>
+                    <input type="text" name="Fax" id="Fax">
                 </div>
                 <div>
-                    <label for="email"><span>*</span>E-mail</label>
-                    <input type="email" name="email">
+                    <label for="Email"><span>*</span>E-mail</label>
+                    <input type="email" name="Email" id="Email">
                 </div>
-            </form>
-            <h6>Request a quote or make a booking for the following shipment (complete as appropriate):</h6>
-            <form action="" class="contact-info">
+
+                <h6>Request a quote or make a booking for the following shipment (complete as appropriate):</h6>
                 <div>
-                    <label for="Quote or Booking"><span>*</span>Quote or Booking</label>
-                    <select name="Quote or Booking" id="">
-                        <option value="">Request a Quote</option>
-                        <option value="">Make a Booking</option>
+                    <label for="QuoteorBooking"><span></span>Quote or Booking</label>
+                    <select name="QuoteorBooking" id="QuoteorBooking">
+                        <option value="Request a Quote">Request a Quote</option>
+                        <option value="Make a Booking">Make a Booking</option>
                     </select>
                 </div>
                 <div>
-                    <label for="type"><span>*</span>Type</label>
-                    <select name="type" id="">
-                        <option value="">Import</option>
-                        <option value="">Export</option>
-                        <option value="">Cross Trade</option>
+                    <label for="Type"><span></span>Type</label>
+                    <select name="Type" id="Type">
+                        <option value="Import">Import</option>
+                        <option value="Export">Export</option>
+                        <option value="Cross Trade">Cross Trade</option>
                     </select>
                 </div>
                 <div>
-                    <label for="origin"><span>*</span>Origin (Place/Country)</label>
-                    <input type="text" name="origin">
+                    <label for="Origin_(Place/Country)"><span>*</span>Origin (Place/Country)</label>
+                    <input type="text" name="Origin_(Place/Country)" id="Origin_(Place/Country)" required>
                 </div>
                 <div>
-                    <label for="* Destination (Place/Country)"><span>*</span>Destination (Place/Country)</label>
-                    <input type="text" name="destination">
+                    <label for="Destination"><span>*</span>Destination (Place/Country)</label>
+                    <input type="text" name="Destination" id="Destination" required>
                 </div>
                 <div>
-                    <label for="fax"><span>*</span>Brief Description of Goods</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <label for="Brief_Description_of_Goods"><span></span>Brief Description of Goods</label>
+                    <textarea name="Brief_Description_of_Goods" id="Brief_Description_of_Goods" cols="30"
+                        rows="10"></textarea>
                 </div>
                 <div>
-                    <label for="email"><span>*</span>Value (if insurance required)</label>
-                    <input type="email" name="email">
+                    <label for="Value_(if_insurance_required)"><span></span>Value (if insurance required)</label>
+                    <input type="text" name="Value_(if_insurance_required)" id="Value_(if_insurance_required)">
                 </div>
                 <div>
-                    <label for="email"><span>*</span>Container Size / Type</label>
-                    <input type="email" name="email">
+                    <label for="Container_Size_/_Type"><span></span>Container Size / Type</label>
+                    <input type="text" name="Container_Size_/_Type" id="Container_Size_/_Type">
                 </div>
                 <div>
-                    <label for="email"><span>*</span>Approx Consignment Weight</label>
-                    <input type="email" name="email">
+                    <label for="Approx_Consignment_Weight"><span></span>Approx Consignment Weight</label>
+                    <input type="text" name="Approx_Consignment_Weight" id="Approx_Consignment_Weight">
                 </div>
                 <div>
-                    <label for="email"><span>*</span>Approx Volume / Measurements</label>
-                    <input type="email" name="email">
+                    <label for="Approx_Volume_/_Measurements"><span></span>Approx Volume / Measurements</label>
+                    <input type="text" name="Approx_Volume_/_Measurements" id="Approx_Volume_/_Measurements">
                 </div>
                 <div>
-                    <label for="email"><span>*</span>Expected Shipment Date (if known)</label>
-                    <input type="email" name="email">
+                    <label for="Expected_Shipment_Date_(if_known)"><span></span>Expected Shipment Date (if
+                        known)</label>
+                    <input type="date" name="Expected_Shipment_Date_(if_known)" id="Expected_Shipment_Date_(if_known)">
                 </div>
                 <div>
-                    <label for="email"><span>*</span>Any Special Requirements / Comments</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <label for="Requirements"><span></span>Any Special Requirements / Comments</label>
+                    <textarea name="Requirements" id="Requirements" cols="30" rows="10"></textarea>
                 </div>
+                <button id="submit">Send</button>
             </form>
         </section>
     </section>
@@ -413,6 +415,8 @@
     <script src="assets/js/imagesloaded-pkgd.js"></script>
     <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="/assets/js/form.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 <!-- Mirrored from html.weblearnbd.net/portx-demo/portx/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 Sep 2023 21:46:12 GMT -->

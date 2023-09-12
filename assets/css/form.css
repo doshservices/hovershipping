@@ -53,8 +53,14 @@
     display: flex;
 }
 
-.quote-form form>div {
-    display: flex;
+.quote-form form>button {
+    display: block;
+    margin: auto;
+    background-color: #FFBF42;
+    padding: .5rem 1rem;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 1.2rem;
 }
 
 @media(max-width: 450px) {
