@@ -95,6 +95,21 @@
 /*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Dancing+Script:wght@500;700&amp;display=swap");
 
+img {
+  max-width: 100%;
+}
+
+.footer__imgs {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer__imgs img {
+  display: flex;
+  max-height: 150px;
+}
+
 .main-menu>nav>ul>li .tp-submenu,
 .tpheader-3__main-menu .main-menu ul li .sub-menu,
 .tpheader__main-menu .main-menu ul li .sub-menu,
@@ -5941,7 +5956,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .circal::before {
-  background: #ca1f26;
+  background: #ffbf42;
   width: 825px;
   height: 825px;
   position: absolute;
