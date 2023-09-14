@@ -5956,7 +5956,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .circal::before {
-  background: #ffbf42;
+  background: hsl(0, 0%, 4%, .3);
   width: 825px;
   height: 825px;
   position: absolute;
